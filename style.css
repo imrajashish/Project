@@ -1,0 +1,133 @@
+html{
+    height: 100%;
+    background-color: rgb(138, 15, 15);
+    background: radial-gradient(circle,#fff,#ccc);
+    background: -webkit-radial-gradient(circle,#fff,#ccc);
+    background: -o-radial-gradient(circle,#fff,#ccc);
+    background: -moz-radial-gradient(circle,#fff,#ccc);
+
+}
+#continer{
+    height: 600px;
+    width: 750px;
+    background-color:#fd6;
+    margin: 10px,auto;
+    padding: 20px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#score{
+    height: 40px;
+    width: 70px;
+    background-color: aqua;
+    color: burlywood;
+    background: blueviolet;
+    text-align: center;
+    right:50px;
+    position: absolute;
+    position: absolute;
+    box-shadow: 0px 4px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px #9da853;
+
+}
+/*
+#timeremamning{
+    height: 50px;
+    width: 300px;
+    background: chocolate;
+    text-transform: uppercase;
+    text-align: center;
+    top: 50px;
+    right:20px ;
+
+}*/
+
+#gameover{
+    height: 300px;
+    width: 500px;
+    background: linear-gradient(#F3CA6B,#F3706B);
+    background: -o-linear-gradient(#F3CA6B,#F3706B);
+    background: -moz-linear-gradient(#F3CA6B,#F3706B);
+    color:seagreen ;
+    font-size: 2.5em;
+    text-align:center;
+    text-transform: uppercase;
+    position: absolute;
+    display: none;
+    top:70px ;
+    left: 120px;
+    z-index: 2;
+}
+#instruction{
+    width: 750px;
+    height: 430px;
+    bottom: 130px;
+    position: absolute;
+    background-color:white;
+    padding: 0px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    color: black;
+    line-height: 45px;
+    box-shadow: 0px 4px #B481D9;
+    -moz-box-shadow: 0px 4px #B481D9;
+    -webkit-box-shadow: 0px 4px #B481D9;
+}
+#startgame{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(0, 255, 42);
+    color: rgb(211, 35, 35);
+    background: rgb(226, 131, 43);
+    text-align: center;
+    right:100px;
+    box-shadow: 0px 4px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px #9da853;
+    text-shadow: #9da853;
+    text-size-adjust: 20px;
+    margin-top: 2px;
+    padding: 10px;
+    left: 300px;
+    bottom: 10px;
+    position: absolute;    
+}
+#catch{
+    height: 50px;
+    width: 150px;
+    background-color: #ccc;
+    color: blueviolet;
+    position: absolute;
+    margin: 2px;
+    padding: 2px;
+    bottom: 70px;
+    right: 335px;
+    text-align: center;
+}
+#heart{
+    height: 15px;
+    width: 70px;
+    background-color:skyblue;
+    color: salmon;
+    padding: 2px;
+    position: relative;
+    top:1px;
+    text-align: center;
+    box-shadow: 0px 4px 0px #9da853;
+
+}
+.life{
+    width: 16px;
+    height: 16px;
+    margin: 0px  5px;
+}
+.fruit{
+    display: none;
+    position: absolute;
+}
